@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Dropzone from './dropzone/dropzone';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <header className="App-header">
+          <h1>Web Deid</h1>
+        </header>
+      </div>
+      <div className="App-main-content">
+        <div><p>A great place to put DICOM files.</p></div>
+        <div><Dropzone/></div>
+      </div>
+
     </div>
   );
 }
