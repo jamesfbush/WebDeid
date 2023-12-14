@@ -60,6 +60,7 @@ function Dropzone() {
       </div>
     </div>
     {/* container */}
+    {/* TODO: separate this container into separate component*/}
     <div className="dicomDataTableContainer">
       <p>{fileName}</p>
       {dataSet.elements &&       
