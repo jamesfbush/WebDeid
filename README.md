@@ -1,7 +1,7 @@
 # Introduction 
 
 WebDeid is a lightweight and performant in-browser solution for deidentifying DICOM medical image files.
-It the project leverages Cornerstone.js, Typescript, React, and Node.js.
+The project leverages Cornerstone.js, Typescript, React, and Node.js.
 
 Preliminary instructions for running the application are included below, adapted from React documentation.
 
