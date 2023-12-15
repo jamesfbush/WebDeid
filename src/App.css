@@ -112,6 +112,7 @@ tr:nth-child(even) {
   align-items: center;
   flex-direction: column;
   border: #f94144 solid 1px;
+  border-radius: 2px;
 
 }
 
@@ -166,6 +167,8 @@ tr:nth-child(even) {
   border: 1px solid #f94144;
   background-color: white;
   box-shadow: 1px 1px #a8a7a7;
+  border-radius: 2px;
+
 }
 
 .alertButton:hover {background-color: #F8E4E7}
@@ -184,6 +187,8 @@ tr:nth-child(even) {
   align-items: center;
   flex-direction: column;
   border: #277da1 solid 1px;
+  border-radius: 2px;
+
 
 }
 
@@ -238,6 +243,8 @@ tr:nth-child(even) {
   border: 1px solid #277da1;
   background-color: white;
   box-shadow: 1px 1px #a8a7a7;
+  border-radius: 2px;
+
 }
 
 .infoButton:hover {background-color: #EBF6F9}
@@ -256,6 +263,8 @@ tr:nth-child(even) {
   align-items: center;
   flex-direction: column;
   border: #43AA8B solid 1px;
+  border-radius: 2px;
+
 
 }
 
@@ -310,6 +319,8 @@ tr:nth-child(even) {
   border: 1px solid #43AA8B;
   background-color: white;
   box-shadow: 1px 1px #a8a7a7;
+  border-radius: 2px;
+
 }
 
 .successButton:hover {background-color: #EBF6F9}
