@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 import './App.css';
 import Dropzone from './dropzone/dropzone';
 import Alert from './alert/alert';
+import Info from './info/info';
+import Success from './success/succes';
+
 
 function App() {
 
@@ -26,6 +29,8 @@ function App() {
         <div><p>A great place to put DICOM files.</p></div>
         <div><Dropzone/></div>
         <div><Alert/></div>
+        <div><Info/></div>
+        <div><Success/></div>
 
 
 
